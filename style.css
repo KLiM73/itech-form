@@ -1,0 +1,90 @@
+.vacancy-form {
+    width: 390px;
+    overflow: hidden;
+}
+
+.vacancy-form__name, .vacancy-form__phone, .vacancy-form__email, .vacancy-form__city, .vacancy-form__message {
+    border: none;
+    outline: none;
+    background-color: #e5e5e5;
+    color: #8791a8;
+    font-size: 14px;
+    padding: 24px;
+    width: 390px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.vacancy-form__span {
+    color: #2f3543;
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 28px;
+}
+
+.vacancy-form__file {
+    margin-bottom: 12px;
+    position: absolute;
+    left: -50px;
+    opacity: 0;
+}
+.vacancy-form__file-button {
+    padding: 20px;
+    font-size: 12px;
+    color: #005093;
+    border: 1px solid #005093;
+    border-radius: 3px;
+    display: inline-block;
+}
+.vacancy-form__file-span {
+    display: inline-block;
+    font-size: 12px;
+    color: #8791a8;
+    margin-bottom: 30px;
+}
+
+.vacancy-form__agree {
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: -30px;
+}
+.vacancy-form__agree:focus {
+    outline: none;
+}
+.vacancy-form__agree-label {
+    color: #8791a8;
+    font-size: 14px;
+    margin-bottom: 30px;
+    display: inline-block;
+
+}
+.vacancy-form__agree-link {
+    text-decoration: none;
+    color: #005093;
+}
+.vacancy-form__agree-label:before {
+    content: '';
+    display: inline-block;
+    background-color: #e5e5e5;
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    vertical-align: sub;
+    margin-right: 10px;
+}
+
+.vacancy-form__submit {
+    font-size: 12px;
+    color: #FFF;
+    background-color: #005093;
+    padding: 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.vacancy-form__submit:disabled {
+    background-color: #f2f2f2;
+    color: #c6cad3;
+}
